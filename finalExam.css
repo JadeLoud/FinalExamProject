@@ -25,6 +25,14 @@ header {
     padding: 15px;
 }
 
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+
 /* Styling for h1 in header */
 
 header h1 {
