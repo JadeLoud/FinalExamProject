@@ -1,0 +1,141 @@
+@charset "UTF-8";
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 2
+   Case Problem 1
+   
+   PHCT Typographic Style Sheet
+   Author: Jade Loud
+   Date:  11/1/24 
+   
+   Filename: ph_styles.css
+
+*/
+/* Define Champagne font */
+@font-face {
+   font-family: 'Champagne';
+   src: url('cac_champagne.woff') format('woff'),
+        url('cac_champagne.ttf') format('truetype');
+}
+
+/* Define Grunge font */
+@font-face {
+   font-family: 'Grunge';
+   src: url('1942.woff') format('woff'),
+        url('1942.ttf') format('truetype');
+}
+
+/* Define Dobkin font */
+@font-face {
+   font-family: 'Dobkin';
+   src: url('DobkinPlain.woff') format('woff'),
+        url('DobkinPlain.ttf') format('truetype');
+}
+/* Structural Styles */
+
+html {
+   background-color: hsl(91, 8%, 56%);
+}
+
+body {
+   background-color: hsl(58, 31%, 84%);
+   font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+}
+/* Header Styles */
+
+header {
+   background-color: black;
+}
+/* Paragraph Styles */
+
+p {
+   margin: 0;
+   padding: 5px 25px 25px 25px;
+}
+/* Direct Child Paragraph Styles */
+
+body > p {
+   font-size: 1.1em;
+   text-align: center;
+}
+/* Address Styles */
+
+address {
+   font-style: normal;
+   font-size: 0.9em;
+   text-align: center;
+   padding: 10px 0;
+}
+
+/* Navigation Styles */
+nav a {
+   font-family: 'Trebuchet MS', Helvetica, sans-serif; /* Font stack */
+   padding: 10px 0; /* Set top and bottom padding to 10 pixels */
+   color: white; /* Set text color to white */
+   text-decoration: none; /* Remove underline */
+   background-color: hsla(0, 0%, 42%, 0.4); /* Set semi-transparent background color */
+}
+
+nav a:hover,
+nav a:active {
+   color: hsla(0, 0%, 100%, 0.7); /* Set text color on hover/active */
+   background-color: hsla(0, 0%, 42%, 0.7); /* Set background color on hover/active */
+}
+
+/* Section Styles */
+
+section.playbill h1 {
+   font-size: 3em; 
+   font-weight: normal;
+   margin: 0; 
+   padding: 20px 0 10px 20px;
+}
+
+#play1 {
+   background-color: hsl(240, 100%, 88%); /* Light blue background */
+}
+
+#play2 {
+   background-color: hsl(25, 88%, 73%); /* Light orange background */
+}
+
+#play3 {
+   background-color: hsl(0, 100%, 75%); /* Light red background */
+}
+
+#play4 {
+   background-color: hsl(296, 86%, 86%); /* Light purple background */
+}
+
+#play1 h1 {
+   font-family: 'Champagne', cursive; /* Font stack for play1 */
+}
+
+#play2 h1 {
+   font-family: 'Grunge', 'Times New Roman', Times, serif; /* Font stack for play2 */
+}
+
+#play3 h1 {
+   font-family: 'Impact', Charcoal, sans-serif; /* Font stack for play3 */
+}
+
+#play4 h1 {
+   font-family: 'Dobkin', cursive; /* Font stack for play4 */
+}
+/* Definition List Styles */
+
+dt {
+   font-size: 1.3em; /* Set font size to 1.3em */
+   font-weight: bold; /* Set font weight to bold */
+   color: hsla(0, 0%, 0%, 0.4); /* Set font color to semi-transparent black */
+}
+
+dd {
+   font-size: 1.3em; /* Set font size to 1.3em */
+   margin-left: 0; /* Set left margin to 0 pixels */
+   margin-bottom: 10px; /* Set bottom margin to 10 pixels */
+}
+
+
+/* Description List Styles */
+
