@@ -32,7 +32,6 @@ header {
     padding: 20px;
 }
 
-
 /* Styling for h1 in header */
 
 header h1 {
@@ -56,6 +55,32 @@ header h3 {
     padding-top: 0px;  
     padding-right: 0px;  
     background-color: #f0ee75;  
+}
+
+/* About Me Section Styling */
+#about-me {
+    padding: 12px;
+    background-color: #ffffff; /* White background for the About Me section */
+    border-radius: 3px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 00px 0; /* Adds margin to separate it from other sections */
+    width: 100%; /* Ensures the section spans the full width of the page */
+    max-width: 1200px; /* Optional: set a maximum width for the About Me section */
+    margin-left: auto;
+    margin-right: auto; /* Centers the section horizontally */
+}
+
+/* Styling for the text within the About Me section */
+#about-me h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+#about-me p {
+    text-align: center;
+    color: #555;
+    line-height: 1.6;
 }
 
 /* Image in Header */
